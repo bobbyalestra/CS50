@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let div1 = document.createElement('div')
 div1.id = 'firstDiv';
-div1.innerText = 'test'
+// div1.innerText = 'test'
 document.body.appendChild(div1);
 
 
@@ -22,8 +22,6 @@ document.body.appendChild(input1)
 let ulList = document.createElement('ul')
 ulList.id = 'unorder';
 document.body.appendChild(ulList);
-
-
 
 
 
