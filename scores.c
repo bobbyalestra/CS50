@@ -10,5 +10,5 @@ int main (void)
     int score2 = 73
     int score = 33
 
-printf()
+printf("Average: %i," (score1 + score2 + score3) / 3);
 }
