@@ -5,10 +5,10 @@
 
 int main (void)
 {
+    int scores[3];
+    scores[1] =  72 ;
+    scores[2] = 73;
+    scores[3] = 33;
 
-    int score1 =  72 
-    int score2 = 73
-    int score = 33
-
-printf("Average: %i," (score1 + score2 + score3) / 3);
+printf("Average: %i\n", (score1 + score2 + score3) / 3);
 }
