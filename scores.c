@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-
+float average(int length, int array[]);
 
 int main (void)
 {
@@ -15,14 +15,16 @@ int main (void)
 
  }
 
-printf("Average: TODO:\n" );
+printf("Average: %.1f\n", average(n,scores));
 
 }
 float average(int length, int array[])
 {
-    int sum = 0 
+    int sum = 0 ;
     for (int i = 0; i < length; i++)
     {
-        sum = sum + array[i]
+        sum += array[i];
+
     }
+    return (float) sum / (float) length;
 }
