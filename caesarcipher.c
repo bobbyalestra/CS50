@@ -1,6 +1,7 @@
 
 
 
+
 #include<stdio.h>
  
 int main()
@@ -37,6 +38,5 @@ int main()
 	}
 	
 	printf("Encrypted message: %s", message);
-	
 	return 0;
 }
