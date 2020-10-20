@@ -12,10 +12,12 @@ int main (void)
         if (strcmp(names[i], "Emma") == 0
         {
             printf("Found\n");
+            //return found to end the program
             return 0;
         }
     }
 
     printf("Nor Found\n")
+    // return not found
     return 1;
 }
