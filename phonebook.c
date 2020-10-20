@@ -35,10 +35,6 @@ int main (void)
     people[3].name = "Bobby"
     people[3].number = "617-555-0103"
 
-    
-    // string names[4] = {"Emma", "Rodrigo", "Joe", "Bobby"};
-    // string numbers[4] = {"617-555-0100", "617-555-0101", "617-555-0102", "617-555-0103"};
-
     for (int i = 0; i < 4; i++) 
     {
         if (strcmp(people[i].name, "Emma") == 0)
