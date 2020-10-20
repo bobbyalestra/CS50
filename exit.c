@@ -15,5 +15,6 @@ int main (int argc , stringargv[])
         return 1;
 
     }
-    printf("Hello &s\n", arg[1])
+    printf("Hello &s\n", arg[1]);
+    return 0;
 }
