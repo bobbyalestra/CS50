@@ -13,8 +13,13 @@ int main (void)
     for (int i = 0; i < 4; i++) 
     {
         if (strcmp(names[i], "Emma") == 0)
+        {
 
         // %s is a placeholder for strings
-        printf("%s\n")
+        printf("%s\n", number[i]);
+        return 0;
     }
+}
+    printf("Not Found\n");
+    return 1;
 }
