@@ -12,8 +12,10 @@ int main (void)
         if (strcmp(names[i], "Emma") == 0
         {
             printf("Found\n");
+            return 0;
         }
     }
 
     printf("Nor Found\n")
+    return 1;
 }
