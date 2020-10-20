@@ -41,11 +41,11 @@ int main (void)
 
     for (int i = 0; i < 4; i++) 
     {
-        if (strcmp(names[i], "Emma") == 0)
+        if (strcmp(people[i].name, "Emma") == 0)
         {
 
         // %s is a placeholder for strings
-        printf("%s\n", number[i]);
+        printf("%s\n", people[i].number);
         return 0;
     }
 }
