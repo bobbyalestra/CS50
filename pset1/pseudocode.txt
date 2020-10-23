@@ -1,0 +1,11 @@
+ask user of the height 
+get_int to ask user for interager
+make sure the height is between 1-8 
+if false prompt for a valid input
+
+int n;
+do 
+{
+    n = get_int("Positive Number: ");
+}
+while (n >=1 && n <= 8);
