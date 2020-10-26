@@ -1,7 +1,12 @@
 // & means get address
-// * 
+// * go to address
 
 #include <stdio.h>
+
+
+// points to a seqence of characters (string)
+typedef char *string;
+
 
 int main (void)
 {
@@ -10,5 +15,5 @@ int main (void)
     // pointer to int .... int n
     int *p = &n;
 
-    printf("%p\n", p);
+    printf("%p\n", *p);
 }
